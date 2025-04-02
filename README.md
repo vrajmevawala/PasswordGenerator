@@ -1,16 +1,52 @@
-<<<<<<< HEAD
-# Password-Generator
-=======
-# React + Vite
+# Password Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This is a simple **Password Generator** built using **React** and **JavaScript**. The application allows users to generate secure passwords with customizable options such as length, inclusion of numbers, symbols, uppercase, and lowercase letters.
 
-Currently, two official plugins are available:
+## Features
+- Generate secure passwords with user-defined length.
+- Include or exclude numbers, symbols, uppercase, and lowercase letters.
+- Copy the generated password to the clipboard.
+- Responsive and user-friendly UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- **Reac**t (useState, useEffect for state management)
+- **JavaScript** (random character generation logic)
+- **CSS** (for styling)
 
-## Expanding the ESLint configuration
+## Installation
+1. Clone the repository:
+   sh
+   git clone https://github.com/your-username/password-generator.git
+   
+2. Navigate into the project directory:
+   sh
+   cd password-generator
+   
+3. Install dependencies:
+   sh
+   npm install
+   
+4. Start the development server:
+   sh
+   npm start
+   
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> 36584c0 (initial commit)
+## Usage
+1. Open the application in your browser.
+2. Adjust password settings (length, character types).
+3. Click the "Generate Password" button.
+4. Copy the generated password to the clipboard.
+
+## Contributing
+Contributions are welcome! To contribute:
+1. Fork the repository.
+2. Create a new branch (git checkout -b feature-branch).
+3. Commit your changes (git commit -m "Add new feature").
+4. Push to your fork and submit a Pull Request.
+
+## License
+This project is open-source and available under the *MIT License*.
+
+---
+Developed with ❤ using React.
