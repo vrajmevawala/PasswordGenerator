@@ -16,21 +16,28 @@ This is a simple **Password Generator** built using **React** and **JavaScript**
 
 ## Installation
 1. Clone the repository:
+   ```
    sh
    git clone https://github.com/your-username/password-generator.git
+   ```
    
 2. Navigate into the project directory:
+   ```
    sh
    cd password-generator
+   ```
    
-3. Install dependencies:
+4. Install dependencies:
+   ```
    sh
    npm install
+   ```
    
-4. Start the development server:
+6. Start the development server:
+   ```
    sh
    npm start
-   
+   ```
 
 ## Usage
 1. Open the application in your browser.
